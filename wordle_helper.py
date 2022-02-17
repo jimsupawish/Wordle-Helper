@@ -84,7 +84,7 @@ def check_match_condition(curr_word, user_word, word_info):
             find_index = curr_word.find(curr_c)
 
         if (word_info[i] == "x" and find_index != -1) or\
-            (word_info[i] == "i" and find_index == -1) or\
+            (word_info[i] == "i" and (find_index == -1 or curr_word[i] == user_word[i])) or\
             (word_info[i] == "o" and curr_word[i] != user_word[i]):
             return False
 
