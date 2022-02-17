@@ -114,7 +114,7 @@ def print_last_word(word_list):
 def get_play_again():
     play_again = input("Retry? Type ('Y' for yes and 'N' for no): ")
     while (play_again != "Y" and play_again != "N"):
-        input("Retry? Type ('Y' for yes and 'N' for no): ")
+        play_again = input("Retry? Type ('Y' for yes and 'N' for no): ")
     print()
     return play_again
 
