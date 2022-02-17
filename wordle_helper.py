@@ -78,9 +78,6 @@ def check_match_condition(curr_word, user_word, word_info):
         elif (word_info[i] == "o" and curr_word[i] != user_word[i]):
             return False
 
-    
-    if (user_word == "flora"):
-        print("User word:", user_word, ", curr word:", curr_word)
     return True
 
 

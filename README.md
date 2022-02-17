@@ -31,35 +31,33 @@ The example run of this program use user plays based on [this tweet](https://twi
 ```
 Number of possible words: 9330
 Possible words (only show the first 50 words)
-exits     spume     pixes     glout     slurs     wreak     hover     pares     alack     poise
-duvet     surra     acing     menta     rusts     tarre     burro     balmy     wifey     cheat
-odors     dinar     opens     redon     misos     flunk     raced     price     clach     lames
-braza     cered     beses     boned     buddy     cubby     snell     upset     thews     flyer
-bower     shale     limes     feebs     toric     holes     quote     oboli     cries     wecht
+proms     foist     kafir     plead     sente     apsis     glyph     heres     spook     jacks
+fakir     lists     crake     sagas     cimex     forte     sunup     chins     hansa     kanji
+fovea     alias     tutty     faced     yoked     geums     unpeg     anion     homer     torrs
+fists     jorum     sweep     bears     trows     prose     genus     profs     hirer     clegs
+pitot     erses     germy     guess     enjoy     cosey     wakes     fugio     turrs     dinks
 
 Enter the word you want to try: crane
 Enter the information about above word in I, O, X format: XIIXX
 Number of possible words: 335
 Possible words (only show the first 50 words)
-surra     targa     muras     hairs     tabor     yaird     thraw     zarfs     algor     parky
-rakis     doura     taros     kafir     lairs     radii     harps     sapor     ratty     parka
-raggs     tardy     horah     lazar     radix     rammy     rayah     ramus     foray     harpy
-party     ratos     toras     sprag     boyar     rioja     bards     libra     moral     sards
-auras     tarot     sprat     raggy     larum     tayra     padri     karma     varix     sugar
+kafir     fakir     talar     rafts     mayor     makar     harps     libra     pargo     stray
+doura     parks     afrit     larks     strap     wairs     tarry     joram     yards     raids
+ragis     larky     aargh     rails     foray     sprag     burka     rakus     rasps     taros
+barfi     varas     purda     asura     varus     karoo     moray     altar     harms     agora
+abris     vairs     hilar     parts     barbs     faqir     supra     harpy     sabir     riyal
 
-Enter the word you want to try: Barks
+Enter the word you want to try: barks
 Enter the information about above word in I, O, X format: XIIXX
 Number of possible words: 36
 Possible words (only show the first 50 words)
-algor     doura     rioja     jumar     filar     flora     pilar     alvar     agora     aport
-polar     mudra     hijra     tolar     rugal     altar     augur     molar     riyal     lidar
-aggro     gular     ixora     rhyta     volar     hydra     amort     ultra     amour     rival
-ottar     moira     jowar     hilar     attar     royal
+doura     altar     agora     hilar     riyal     lidar     filar     pilar     tolar     alvar
+rhyta     aport     hijra     amour     jowar     rioja     royal     rival     algor     mudra
+volar     flora     aggro     ixora     hydra     moira     ultra     amort     ottar     gular
+augur     rugal     polar     attar     molar     jumar
 
 Enter the word you want to try: flora
 Enter the information about above word in I, O, X format: XXOOO
-User word: flora , curr word: agora
-User word: flora , curr word: ixora
 Number of possible words: 2
 Possible words (only show the first 50 words)
 agora     ixora
@@ -69,4 +67,6 @@ Enter the information about above word in I, O, X format: OOOOO
 Number of possible words: 1
 Possible words (only show the first 50 words)
 agora
+
+Only possible word = agora
 ```
