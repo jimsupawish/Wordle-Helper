@@ -69,14 +69,26 @@ def get_word_info():
 
 
 def check_match_condition(curr_word, user_word, word_info):
+    last_indices = {}
+
     for i in range(len(user_word)):
-        if word_info[i] == "x" and curr_word.find(user_word[i]) != -1:
+        curr_c = user_word[i]
+
+        
+        if (curr_c in last_indices):
+            if (last_indices[curr_c] == -1):
+                find_index = -1
+            else:
+                find_index = curr_word.find(curr_c, last_indices[curr_c] + 1)
+        else:
+            find_index = curr_word.find(curr_c)
+
+        if (word_info[i] == "x" and find_index != -1) or\
+            (word_info[i] == "i" and find_index == -1) or\
+            (word_info[i] == "o" and curr_word[i] != user_word[i]):
             return False
-        elif word_info[i] == "i" and (curr_word[i] == user_word[i] or
-                curr_word.find(user_word[i]) == -1):
-            return False
-        elif (word_info[i] == "o" and curr_word[i] != user_word[i]):
-            return False
+
+        last_indices[curr_c] = find_index
 
     return True
 
